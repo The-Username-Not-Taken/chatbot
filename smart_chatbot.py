@@ -28,7 +28,7 @@ while True:
         rep = ''
         jileConstant = 0 
 
-        for i in (0,len(inpCut) - 1):
+        for i in range(0, len(inpCut) - 1):
             if len(inpCut) > 1:
                 if inpCut[i] == rep:
                     output = '急了急了'
